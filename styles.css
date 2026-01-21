@@ -511,6 +511,17 @@ section h2::after {
     font-weight: 600;
 }
 
+.footer-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-link:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
 /* ============================================
    RESPONSIVE DESIGN
    ============================================ */
