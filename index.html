@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smizek – Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo"><a href="#home">Smizek</a></div>
+        <ul class="nav-menu">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#members" class="nav-link">Members</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<header id="home" class="hero">
+    <div class="hero-content">
+        <h1>Smizek Group</h1>
+        <p class="tagline">
+            Building innovative side projects, tools, and experiments.
+            Learn. Create. Experiment. Innovate.
+        </p>
+        <a href="#projects" class="cta-button">Explore Our Projects</a>
+    </div>
+</header>
+
+<main>
+
+<section id="about" class="about-section">
+    <div class="section-container">
+        <h2>About Us</h2>
+        <p>
+            Smizek is a collective of passionate developers and creators from the Czech Republic.
+            We are dedicated to building innovative software and hardware solutions that solve real problems
+            and explore new possibilities. Our philosophy centers on learning through hands-on experimentation,
+            embracing failures as opportunities for growth.
+        </p>
+        <div class="values">
+            <div class="value-item">
+                <h4>Learning-Driven</h4>
+                <p>We learn by building, experimenting, and pushing boundaries</p>
+            </div>
+            <div class="value-item">
+                <h4>Practical Solutions</h4>
+                <p>Our projects address real-world challenges and become tools we actively use</p>
+            </div>
+            <div class="value-item">
+                <h4>Open Source</h4>
+                <p>We believe in sharing our work and contributing to the community</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="members" class="members-section">
+    <div class="section-container">
+        <h2>Our Team</h2>
+        <div class="members-grid">
+            <div class="member-card">
+                <h3>Vit Bojanovský</h3>
+                <p class="role">Full Stack Developer</p>
+                <p>Passionate about aviation, web technologies, and creating practical tools for real-world problems.</p>
+                <div class="member-links">
+                    <a href="https://github.com/VitBojanovsky" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="member-card">
+                <h3>Adam Chrastka</h3>
+                <p class="role">Developer</p>
+                <p>Focused on building robust solutions and collaborating on diverse projects.</p>
+                <div class="member-links">
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects-section">
+    <div class="section-container">
+        <h2>Featured Projects</h2>
+        <p class="section-subtitle">Explore our latest creations and ongoing experiments</p>
+        <div class="projects-grid">
+
+    <article class="project">
+        <h3>Aircraft Performance Calculator</h3>
+        <p>
+            A web-based tool for calculating aircraft takeoff performance and reference
+            speeds such as V1, VR, V2, and VREF to support safe flight planning.
+        </p>
+        <div class="project-links">
+            <a href="https://runway-math.smizek.com" class="project-link">Live site</a>
+            <a href="https://github.com/VitBojanovsky/Runway-math" class="project-link">GitHub repository</a>
+        </div>
+    </article>
+
+    <article class="project">
+        <h3>Gambling Discord Bot</h3>
+        <p>
+            A Discord bot that provides virtual currency and simple games such as slots,
+            coin flips, and dice. Users earn points through server activity.
+        </p>
+        <div class="project-links">
+            <a href="https://discord.com/oauth2/authorize?client_id=1457789006069895171&permissions=8&scope=bot" class="project-link">
+                Add to Discord
+            </a>
+            <a href="https://github.com/VitBojanovsky/ChatterBox-the-Discord-bot" class="project-link">
+                GitHub repository
+            </a>
+        </div>
+    </article>
+
+    <article class="project">
+        <h3>Attendance for a Company</h3>
+        <p>
+            A lightweight attendance tracking web application designed for small teams.
+            Attendance data is stored locally in the user’s browser.
+        </p>
+        <div class="project-links">
+            <a href="https://attendance-for-a-company.smizek.com/" class="project-link">Live site</a>
+            <a href="https://github.com/VitBojanovsky/Attendance-for-company" class="project-link">
+                GitHub repository
+            </a>
+        </div>
+    </article>
+
+    <article class="project">
+        <h3>Pong Game in Rust</h3>
+        <p>
+            A simple Pong game developed in Rust using the raylib library. The project
+            was created to explore Rust and basic game development concepts.
+        </p>
+        <div class="project-links">
+            <a href="https://github.com/VitBojanovsky/Rust-Pong-with-Raylib" class="project-link">
+                GitHub repository
+            </a>
+        </div>
+    </article>
+
+    <article class="project">
+        <h3>ADS-B Receiver Project</h3>
+        <p>
+            A Raspberry Pi–based ADS-B receiver using Piaware and dump1090 to track
+            aircraft positions. The setup feeds data to FlightAware and Flightradar24
+            and provides a local aircraft tracking interface.
+        </p>
+        <div class="project-links">
+            <a href="https://ilikepancakes.smizek.com/" class="project-link">Live receiver</a>
+            <a href="https://web.smizek.com/PiawareInfo" class="project-link">Project details</a>
+        </div>
+    </article>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="section-container">
+        <h2>Get In Touch</h2>
+        <p>Interested in collaborating or learning more about our projects?</p>
+        <div class="contact-links">
+            <a href="https://github.com/VitBojanovsky" class="contact-link" target="_blank">GitHub</a>
+            <a href="mailto:bojanovsky.vit@protonmail.com" class="contact-link">Email</a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2026 Smizek Group. All rights reserved.</p>
+        <p>Built with passion from the Czech Republic 🇨🇿</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
